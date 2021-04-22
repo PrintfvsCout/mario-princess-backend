@@ -8,8 +8,10 @@ All of the project external modules and their versions are in the file
 4. Type `flask run` or `python run.py` to start the project
 
 ## API documentation
-Sending grid to the backend
+### Sending the grid to the backend
 POST http://localhost:5000/sendinput
+
+Endpoint:`/sendinput`
 
 Request
 ```
@@ -43,3 +45,28 @@ Failed Response
     "error_flag": true
 }
 ```
+### Getting game results 
+GET http://localhost:5000/getresults
+
+Endpoint:`/getresults`
+Response example
+```
+[
+    {
+        "grid": "[\n  \"mx-\",\n  \"-xp\",\n  \"---\"\n]",
+        "id": 1,
+        "n": 3,
+        "path": "DOWN,DOWN,RIGHT,RIGHT,UP",
+        "req_date": "2021-04-21T00:00:19.292756"
+    },
+    {
+        "grid": "[\n  \"mx-\",\n  \"-xp\",\n  \"---\"\n]",
+        "id": 2,
+        "n": 3,
+        "path": "DOWN,DOWN,RIGHT,RIGHT,UP",
+        "req_date": "2021-04-21T00:00:37.537108"
+    }
+]
+```
+
+
