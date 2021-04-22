@@ -7,7 +7,7 @@ All of the project external modules and their versions are in the file
 3. Add ` export FLASK_APP=solution` then ` export FLASK_ENV=development` in the console
 4. Type `flask run` or `python run.py` to start the project
 
-##API documentation
+## API documentation
 Sending grid to the backend
 POST http://localhost:5000/sendinput
 
