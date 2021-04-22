@@ -52,6 +52,22 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(returned_position1,mario_correct_position1)
         self.assertEqual(returned_position2,mario_correct_position2)
 
+    def test_route_to_letters(self):
+        path = [(0,1),(0,2),(1,2)]
+        empty_path =[]
+
+        expected_path = ['RIGHT','DOWN']
+        
+        result = route_to_letters(path)
+
+        expected_empty_path = route_to_letters(empty_path)
+
+        self.assertEqual(expected_empty_path, empty_path)
+        self.assertEqual(result,expected_path)
+
+
+
+
     
 
 
