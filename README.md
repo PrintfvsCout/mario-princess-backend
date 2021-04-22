@@ -1,6 +1,8 @@
 # Mario finds princess backend
 
 ## How to run the project
+**NOTE**: there is no need to create a database, the database is already created `db.game`
+
 All of the project external modules and their versions are in the file
 1. Install the `requirements.txt` file with `pip install -r requirements.txt` and `pip install pipenv`
 2. Run `pipenv shell` in the root directory of the project
