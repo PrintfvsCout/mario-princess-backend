@@ -5,7 +5,13 @@ All of the project external modules and their versions are in the file
 1. Install the `requirements.txt` file with `pip install -r requirements.txt` and `pip install pipenv`
 2. Run `pipenv shell` in the root directory of the project
 3. Add ` export FLASK_APP=solution` then ` export FLASK_ENV=development` in the console
-4. Type `flask run` or `python run.py` to start the project
+4. Type `flask run` to start the project
+
+OR
+
+1. Install the `requirements.txt` file with `pip install -r requirements.txt` 
+2. Run `python run.py`
+
 
 ## API documentation
 ### Sending the grid to the backend
