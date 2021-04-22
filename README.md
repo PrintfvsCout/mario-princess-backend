@@ -49,6 +49,7 @@ Failed Response
 GET http://localhost:5000/getresults
 
 Endpoint:`/getresults`
+
 Response example
 ```
 [
@@ -67,6 +68,18 @@ Response example
         "req_date": "2021-04-21T00:00:37.537108"
     }
 ]
+```
+
+### Deleting result by id
+DELETE http://localhost:5000/getresults/1
+
+Endpoint `getresults/1`
+This endpoint is only used for deleting undesired results 
+```
+{
+    "error_flag": false
+}
+
 ```
 
 
