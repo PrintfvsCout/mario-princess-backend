@@ -5,7 +5,7 @@
 
 The project also contains unit tests to algorithms and utility functions
 
-All of the project external modules and their versions are in the file
+**All of the project external modules and their versions are in the file `requirements.txt`**
 1. Install the `requirements.txt` file with `pip install -r requirements.txt` and `pip install pipenv`
 2. Run `pipenv shell` in the root directory of the project
 3. Add ` export FLASK_APP=solution` then ` export FLASK_ENV=development` in the console
